@@ -1,5 +1,8 @@
 import React from 'react'
-import App from './App.tsx'
+import './main.css'
+import Header from './componentes/header/Header'
+import Footer from './componentes/footer/Footer'
+import Main from './componentes/main/Main'
 import * as ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
@@ -8,7 +11,16 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: 
+    <>
+      <Header/>
+      <Main/>
+      <Footer/>
+    </>,
+  },
+  {
+    path: "/felpin",
+    element: <div> AOOOOOOOOOOOOOOOOOOO</div>,
   },
 ]);
 
