@@ -12,15 +12,38 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: 
+      <>
+        <Header/>
+        <Main/>
+        <Footer/>
+      </>,
+  },
+  {
+    path: "/sobre",
+    element: 
     <>
       <Header/>
-      <Main/>
+      <div className='content-main'>Página Sobre!</div>
       <Footer/>
     </>,
   },
   {
-    path: "/felpin",
-    element: <div> AOOOOOOOOOOOOOOOOOOO</div>,
+    path: "/noticias",
+    element:
+    <>
+      <Header/>
+      <div className='content-main'>Página de Notícias!</div>
+      <Footer/>
+    </>,
+  },
+  {
+    path: "/contato",
+    element: 
+      <>
+        <Header/>
+        <div className='content-main'>Página de Contato!</div>
+        <Footer/>
+      </>,
   },
 ]);
 

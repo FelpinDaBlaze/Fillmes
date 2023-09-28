@@ -4,21 +4,21 @@ function Header(){
     return(
         <header>
             <div>
-                <Link to="/"> <img src="logo.png" alt="" /></Link>
+                <Link to="/">Logo</Link>
             </div>
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">Pagina Inicial</Link>
+                        <Link to="/">Página Inicial</Link>
                     </li>
                     <li>
-                    <Link to="/sobre">Sobre</Link>
+                        <Link to="/sobre">Sobre</Link>
                     </li>
                     <li>
-                    <Link to="/noticias">Notícias</Link>
+                        <Link to="/noticias">Notícias</Link>
                     </li>
                     <li>
-                    <Link to="/contato">Contato</Link>
+                        <Link to="/contato">Contato</Link>
                     </li>
                 </ul>
             </nav>
